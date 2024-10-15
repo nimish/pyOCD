@@ -138,7 +138,7 @@ from . import target_STM32H7B0xx
 from . import target_Air001
 from . import target_Air32F103xx
 from . import target_AMA3B1KK
-
+from . import target_RSL15_512
 ## @brief Dictionary of all builtin targets.
 #
 # @note Target type names must be a valid C identifier, normalised to all lowercase, using _underscores_
@@ -320,4 +320,5 @@ BUILTIN_TARGETS = {
           'air32f103xe': target_Air32F103xx.Air32F103xE,
           'air32f103xg': target_Air32F103xx.Air32F103xG,
           'ama3b1kk_kbr': target_AMA3B1KK.AMA3B1KK_KBR,
+          'rsl15_512': target_RSL15_512.RSL15_512,
          }
